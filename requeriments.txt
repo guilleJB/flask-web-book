@@ -1,5 +1,6 @@
 Flask==0.10.1
 Flask-Bootstrap==3.3.5.7
+Flask-Mail==0.9.1
 Flask-Migrate==1.8.0
 Flask-Moment==0.5.1
 Flask-SQLAlchemy==2.1
@@ -13,6 +14,7 @@ WTForms==2.1
 Werkzeug==0.11.4
 alembic==0.8.5
 argparse==1.2.1
+blinker==1.4
 decorator==4.0.9
 dominate==2.1.17
 ipython==4.1.2
