@@ -13,7 +13,7 @@ class Config(object):
         pass
 
 class DevelopmentConfig(Config):
-    MAIL_SERVER = 'smtp.googlemail.com'
+    MAIL_SERVER = 'smtp.mandrillapp.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
